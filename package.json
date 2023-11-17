@@ -1,0 +1,30 @@
+{
+  "name": "khwan-gopher-theme",
+  "displayName": "Golang Theme",
+  "description": "Golang theme!",
+  "version": "0.0.2",
+  "publisher": "GopherTheme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KhwanNon?tab=repositories"
+  },
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Gopher Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Gopher Theme-color-theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@vscode/test-cli": "^0.0.4",
+    "@vscode/test-electron": "^2.3.6"
+  }
+}
