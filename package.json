@@ -1,12 +1,13 @@
 {
-  "name": "khwan-gopher-theme",
-  "displayName": "Golang Theme",
-  "description": "Golang theme!",
-  "version": "0.0.2",
+  "name": "gumua-gopher-theme",
+  "displayName": "Gopher Theme Color",
+  "description": "Golanga theme!",
+  "version": "0.0.4",
+  "icon": "assets/logo.png",
   "publisher": "GopherTheme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/KhwanNon?tab=repositories"
+    "url": "https://github.com/KhwanNon/golang-theme"
   },
   "engines": {
     "vscode": "^1.84.0"
@@ -17,9 +18,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Gopher Theme",
+        "label": "Gopher Theme Color",
         "uiTheme": "vs-dark",
-        "path": "./themes/Gopher Theme-color-theme.json"
+        "path": "./themes/golang-theme-color-theme.json"
       }
     ]
   },
