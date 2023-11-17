@@ -2,7 +2,7 @@
   "name": "gumua-gopher-theme",
   "displayName": "Gopher Theme Color",
   "description": "Golanga theme!",
-  "version": "0.0.4",
+  "version": "0.0.7",
   "icon": "assets/logo.png",
   "publisher": "GopherTheme",
   "repository": {
@@ -20,7 +20,7 @@
       {
         "label": "Gopher Theme Color",
         "uiTheme": "vs-dark",
-        "path": "./themes/golang-theme-color-theme.json"
+        "path": "./themes/gopher-theme-color-theme.json"
       }
     ]
   },
